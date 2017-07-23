@@ -24,6 +24,7 @@ $ npm install vue-jalaali-datepicker
 <script>
 // for Vue 2.0
 import myDatepicker from 'vue-jalaali-datepicker'
+import myDatepicker from 'vue-jalaali-datepicker/vue-jalaali-datepicker-es6' // for ES6
 
 export default {
   data () {
