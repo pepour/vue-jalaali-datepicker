@@ -1,0 +1,43 @@
+{
+  "name": "vue-jalaali-datepicker",
+  "version": "1.0.0",
+  "description": "Jalaali calendar and datepicker for vue.js 2",
+  "main": "vue-jalaali-datepicker.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepour/vue-jalaali-datepicker.git"
+  },
+  "keywords": [
+    "vue",
+    "jalaali-datepicker",
+    "vue-jalaali-datepicker"
+  ],
+  "author": "Peyman pourjafar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pepour/vue-jalaali-datepicker/issues"
+  },
+  "homepage": "https://github.com/pepour/vue-jalaali-datepicker#readme",
+  "dependencies": {
+    "moment-jalaali": "^0.6.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ],
+      [
+        "vueify",
+        {}
+      ]
+    ]
+  }
+}
