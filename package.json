@@ -1,6 +1,6 @@
 {
   "name": "vue-jalaali-datepicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jalaali calendar and datepicker for vue.js 2",
   "main": "vue-jalaali-datepicker.vue",
   "scripts": {
